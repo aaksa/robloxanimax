@@ -1,0 +1,144 @@
+{
+ "name": "demo",
+ "aspect": "9:16",
+ "width": 1080,
+ "fps": 24,
+ "bpm": 120.0,
+ "engine": "EEVEE",
+ "samples": 24,
+ "ground_texture": null,
+ "cast": {
+  "anak": {
+   "scale": 1.0,
+   "legs": true,
+   "face": {
+    "eye": 4.36,
+    "r": 0.175,
+    "dx": 0.34,
+    "mouth": 4.04,
+    "brow": "#1A100C"
+   },
+   "ref": {
+    "skin": "#9C5A32",
+    "hair": {
+     "style": "short",
+     "color": "#17120F"
+    },
+    "top": {
+     "color": "#651A25",
+     "sleeve": 1.62,
+     "weave": true
+    },
+    "lower": {
+     "kind": "shorts",
+     "color": "#96513F",
+     "bands": "#40201A"
+    },
+    "shoes": "#3A2118"
+   }
+  },
+  "nenek": {
+   "scale": 1.0,
+   "legs": false,
+   "face": {
+    "eye": 4.4,
+    "r": 0.135,
+    "dx": 0.31,
+    "mouth": 4.07,
+    "brow": "#8C8C88",
+    "old": 1
+   },
+   "ref": {
+    "skin": "#A86240",
+    "hair": {
+     "style": "bun",
+     "color": "#777977"
+    },
+    "top": {
+     "color": "#B88620",
+     "sleeve": 1.0,
+     "cuff": "#6E1620"
+    },
+    "lower": {
+     "kind": "skirt",
+     "color": "#1C1A19"
+    },
+    "sash": "#6E1620"
+   }
+  }
+ },
+ "voice": {
+  "takes": {},
+  "pad": [
+   0.02,
+   0.05
+  ],
+  "black_tail": 0.75
+ },
+ "mix": {
+  "music": null,
+  "gain_db": -15,
+  "duck_db": 7,
+  "holes": [],
+  "fade_out": 3,
+  "sfx": [
+   {
+    "file": "~/Ngonten/Maxxing/audio-lib/sfx/kenney-rpg/OGG/footstep00.ogg",
+    "at": "shot:01+0.15",
+    "gain_db": -10
+   },
+   {
+    "file": "~/Ngonten/Maxxing/audio-lib/sfx/kenney-rpg/OGG/footstep01.ogg",
+    "at": "shot:01+0.48",
+    "gain_db": -10
+   },
+   {
+    "file": "~/Ngonten/Maxxing/audio-lib/sfx/kenney-rpg/OGG/footstep02.ogg",
+    "at": "shot:01+0.81",
+    "gain_db": -10
+   },
+   {
+    "file": "~/Ngonten/Maxxing/audio-lib/sfx/kenney-rpg/OGG/footstep03.ogg",
+    "at": "shot:01+1.14",
+    "gain_db": -10
+   },
+   {
+    "file": "~/Ngonten/Maxxing/audio-lib/sfx/kenney-rpg/OGG/metalPot1.ogg",
+    "at": "shot:02+0.6",
+    "gain_db": -8
+   }
+  ]
+ },
+ "card": {
+  "pages": [
+   [
+    "anak",
+    "nenek"
+   ]
+  ],
+  "cast": {
+   "anak": {
+    "title": "ANAK",
+    "role": "the grandchild",
+    "film": "out/stills/01_0024.jpg",
+    "box": [
+     0,
+     300,
+     1080,
+     1740
+    ]
+   },
+   "nenek": {
+    "title": "NENEK",
+    "role": "the grandmother",
+    "film": "out/stills/02_0024.jpg",
+    "box": [
+     0,
+     300,
+     1080,
+     1740
+    ]
+   }
+  }
+ }
+}

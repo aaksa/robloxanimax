@@ -1,0 +1,6 @@
+{
+ "plate": {"route": "text", "size": [2, 2, 0.25], "glb": "assets/raw/plate.glb", "title": "Dinner plate",
+           "prompt": "Enamel plate of white rice, a small piece of braised fish, cassava leaves, chipped blue rim"},
+ "bench": {"route": "draft", "size": [5, 1.4, 1.9], "glb": "assets/raw/bench.glb", "title": "Bench",
+           "prompt": "Weathered wooden village bench, four square legs, plank seat"}
+}

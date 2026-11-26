@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+examples/*/out/
+examples/*/logs/
+examples/*/ref/
+examples/*/cast/
+examples/*/assets/raw/
+examples/*/assets/*.blend
+examples/*/audio/lines/
+examples/*/audio/*.wav
+examples/*/audio/timeline.json

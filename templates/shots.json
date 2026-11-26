@@ -1,0 +1,38 @@
+{
+ "note": "One row per shot, in order. vo = what is said over it (must match phrases.txt word for word). lines = more than one speaker: [[who, text, gap_after_s], ...]. beats = length of a shot with no voice. look = the grade (scripts/grade.py): day | morning | golden | overcast for daylight, amber | noir | cold | sick | clean for low-key. caption = a small yellow label (a place, a term), or empty. en = the English line(s) for the bilingual cut. size / move / action / sound = the board, for you.",
+ "shots": [
+  {
+   "id": "01",
+   "look": "amber",
+   "caption": "",
+   "beats": 4,
+   "vo": "",
+   "size": "medium",
+   "move": "slow push",
+   "action": "the child carries a steaming plate in",
+   "sound": "footsteps, spoon clink"
+  },
+  {
+   "id": "02",
+   "look": "amber",
+   "caption": "",
+   "beats": 4,
+   "vo": "",
+   "size": "close",
+   "move": "slow push",
+   "action": "grandmother looks up and smiles",
+   "sound": "plate set down"
+  },
+  {
+   "id": "03",
+   "look": "day",
+   "caption": "",
+   "beats": 5,
+   "vo": "",
+   "size": "wide",
+   "move": "slow drift",
+   "action": "outside at midday: the child brings the plate to the bench, grandmother turns and beams",
+   "sound": "birds, breeze, footsteps"
+  }
+ ]
+}

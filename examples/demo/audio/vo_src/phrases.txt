@@ -1,0 +1,1 @@
+# <who> <start_s> <end_s> <text>   one phrase per row, in take order, ending at real pauses
